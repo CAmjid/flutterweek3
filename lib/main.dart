@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:taskweek3/home.dart';
+
+import 'package:taskweek3/app/screens/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,13 +13,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-    
+       
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Home(),
-      
+      home: Splash(),
+
     );
   }
 }
