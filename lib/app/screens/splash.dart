@@ -29,7 +29,7 @@ class _SplashState extends State<Splash> {
       body: Center(
         child: Image(
           image: AssetImage(
-            'assets/image/bf735da9e11a1fd910c8cf0a682f8015.png',
+            'assets/image/766906124779949.610b1e7f9db01.png',
           ),
         ),
       ),

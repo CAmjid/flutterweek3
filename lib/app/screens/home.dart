@@ -18,6 +18,11 @@ class _HomeState extends State<Home> {
       'assets/image/OIP.webp',
       'assets/image/wp5916997.jpg',
       'assets/image/wp9049761.jpg',
+      'assets/image/pdhOE0NAZaPzjsgTvatRP1xFhG3.webp',
+      'assets/image/R.jpeg',
+      'assets/image/rgno01ixB1OBcSHIOnHGlyu2Dqv.jpg',
+      'assets/image/1335882256_duke_305287.jpeg'
+
     ];
     List<String> names = [
       'Extraction 2',
@@ -26,16 +31,21 @@ class _HomeState extends State<Home> {
       'Hercules',
       'Thor',
       'Maortal Engines',
+      'Avengers',
+      'Pirates of Carriebien',
+      'John wick chapter 4 ',
+      'G.i.joe '
+
     ];
 
-    List<String> year = ['2022', '2016', '2024', '2022', '2018', '2020'];
+    List<String> year = ['2022', '2016', '2024', '2022', '2018', '2020','2018','2019','2017','2023'];
 
     return Scaffold(
       drawer: Drawer(
         child: ListView(
           children: [
             const DrawerHeader(
-              decoration: BoxDecoration(color: Colors.blue),
+              decoration: BoxDecoration(color: Colors.red),
               child: Text(
                 'Menu',
                 style: TextStyle(color: Colors.white, fontSize: 24),
@@ -84,10 +94,12 @@ class _HomeState extends State<Home> {
         ),
       ),
       appBar: AppBar(
+        backgroundColor: Colors.red,
+
         centerTitle: true,
         title: const Text(
           'Movies',
-          style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+          style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold,color: Colors.white),
         ),
       ),
       body: ListView.builder(
